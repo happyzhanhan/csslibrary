@@ -10,3 +10,5 @@ _background-color:#1e0bd1;/*IE6识别*/
 .bb, x:-moz-any-link, x:default{background-color:#00ff00;}/*IE7 firefox3.5及以下 识别 */ 
 @-moz-document url-prefix(){.bb{background-color:#00ff00;}}/* 仅firefox 识别 */ 
 * +html .bb{background-color:#a200ff;}/* 仅IE7 识别 */
+
+/*还有很多可以补充*/
