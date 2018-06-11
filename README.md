@@ -86,7 +86,7 @@ _background-color:#1e0bd1;
   这三款CSS预处理器语言具有一些相同的特性，例如：变量、混入、嵌套、函数等。
 
 ### 五、media 媒体查询
-[ellipsis.css](https://github.com/happyzhanhan/csslibrary/blob/master/newstyle/ellipsis.css)(ellipsis使用)
+[@media screen](https://github.com/happyzhanhan/csslibrary/blob/master/phonecss/phone.css)
 
 ### 六、New style I know once I see （新的css好用的样式每次见到记录学习）
 
