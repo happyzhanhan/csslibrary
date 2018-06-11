@@ -97,8 +97,10 @@ _background-color:#1e0bd1;
 附：[百度详细规则解说](https://jingyan.baidu.com/article/fec7a1e5ddaa051191b4e77b.html)
 
 #### 3.正方形的方法（这个按照情况使用哦）
-[placeholder.html](https://github.com/happyzhanhan/csslibrary/blob/master/newstyle/ellipsis.https://github.com/happyzhanhan/csslibrary/blob/master/newstyle/placeholder.html)
+[placeholder.html](https://github.com/happyzhanhan/csslibrary/blob/master/newstyle/placeholder.html)
 
+#### 4.响应式新技能（:root的灵活使用）
+[responsive.css](https://github.com/happyzhanhan/csslibrary/blob/master/newstyle/responsive.css)
 
 ```
 conpyright by 前端小牛 周振晗编纂 转载请联系1659725767@qq.com
