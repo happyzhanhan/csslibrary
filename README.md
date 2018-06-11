@@ -93,9 +93,10 @@ _background-color:#1e0bd1;
 [ellipsis.css](https://github.com/happyzhanhan/csslibrary/blob/master/newstyle/ellipsis.css)(ellipsis使用)
 
 #### 2.垂直居中的方法（这个按照情况使用哦）
-[center](https://github.com/happyzhanhan/csslibrary/blob/master/newstyle/ellipsis.css)
+[center.html](https://github.com/happyzhanhan/csslibrary/blob/master/newstyle/ellipsis.css)
 附：[百度详细规则解说](https://jingyan.baidu.com/article/fec7a1e5ddaa051191b4e77b.html)
 
 
-
+```
 conpyright by 前端小牛 周振晗编纂 转载请联系1659725767@qq.com
+```
