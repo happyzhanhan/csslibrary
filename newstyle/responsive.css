@@ -1,0 +1,28 @@
+  /*a. 响应式新技能 主要运用选择器:root */
+    :root {
+      --base-font-size: 30px;
+      --columns: 200px 200px;
+      --base-margin:30px;
+    }
+  /*b. 调用变量*/  
+	#navbar {  
+    margin: var(--base-margin) 0; 
+  }
+  #navbar a {
+    font-size: var(--base-font-size);
+  }
+  h1 {
+    font-size: var(--base-font-size);
+  }
+  .grid {
+    margin: var(--base-margin) 0;
+    grid-template-columns: var(--columns);
+  }
+
+  /*c. 在媒体查询中修改这些变量值*/
+  @media all and (max-width: 450px) {
+    :root {
+      --columns: 200px;
+      --base-margin: 15px;
+      --base-font-size: 20px;
+  }
