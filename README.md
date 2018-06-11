@@ -27,6 +27,7 @@ _background-color:#1e0bd1;
 .background-color:#00deff\9;
 ```
 
+##### 附：c[css各浏览器兼容表](http://code.ciaoca.com/style/css-cheat-sheet/)
 
 
 ### 二、Css reset （css样式重置）
