@@ -14,8 +14,8 @@ Today let me start it.
 
 [官方animate.css可以看一下](https://daneden.github.io/animate.css/)(主要参照效果和使用方法)
 
-|:---:|:---:|:---:|:---:|
-|Class Name||||			
+|Class Name||||	
+|:--:|:--:|:--:|:--:|		
 |bounce|	flash|	pulse|	rubberBand|
 |shake|	headShake|	swing|	tada|
 |wobble|	jello|	bounceIn|	bounceInDown|
@@ -37,8 +37,8 @@ Today let me start it.
 |slideOutDown	|slideOutLeft|	slideOutRight|	slideOutUp|
 
 使用方法：
-1.下载引入样式表：<link rel="stylesheet" href="animate.css">
-2.行间使用样式：<h1 class="animated infinite bounce">Example</h1>
+#### 1.下载引入样式表：<link rel="stylesheet" href="animate.css">
+#### 2.行间使用样式：<h1 class="animated infinite bounce">Example</h1>
 
 ### The processor of css  （css的处理器）
 
