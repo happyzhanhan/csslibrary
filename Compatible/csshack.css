@@ -1,0 +1,12 @@
+.bb{
+height:32px;
+background-color:#f1ee18;/*所有识别*/
+.background-color:#00deff\9; /*IE6、7、8识别*/
++background-color:#a200ff;/*IE6、7识别*/
+_background-color:#1e0bd1;/*IE6识别*/
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0){.bb{background-color:#f1ee18}}{} /*safari(Chrome) 有效 */
+.bb, x:-moz-any-link, x:default{background-color:#00ff00;}/*IE7 firefox3.5及以下 识别 */ 
+@-moz-document url-prefix(){.bb{background-color:#00ff00;}}/* 仅firefox 识别 */ 
+* +html .bb{background-color:#a200ff;}/* 仅IE7 识别 */
