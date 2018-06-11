@@ -103,6 +103,9 @@ _background-color:#1e0bd1;
 #### 4.响应式新技能（:root的灵活使用）
 [responsive.css](https://github.com/happyzhanhan/csslibrary/blob/master/newstyle/responsive.css)
 
+
+## ……（不断更新中……详见Wiki）
+
 ```
 conpyright by 前端小牛 周振晗编纂 转载请联系1659725767@qq.com
 ```
