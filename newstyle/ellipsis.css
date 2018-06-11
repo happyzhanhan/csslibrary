@@ -12,9 +12,9 @@
   overflow: hidden;
  }
  /*多行溢出显示省略号*/
-p{
+p.moreline{
   position: relative; line-height: 20px; max-height: 40px;overflow: hidden;}
-p::after{
+p.moreline::after{
   content: "..."; position: absolute; bottom: 0; right: 0; padding-left: 40px;
   background: -webkit-linear-gradient(left, transparent, #fff 55%);
   background: -o-linear-gradient(right, transparent, #fff 55%);
