@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>透明图片变色</title>
+	<style type="text/css">
+		.icon {
+		    display: inline-block;
+		    width: 20px; height: 20px;
+		    overflow: hidden;
+		}
+		.icon-del {
+		    background: url(http://www.zhangxinxu.com/study/201606/delete.png) no-repeat center;
+		}
+		.icon > .icon {
+		    position: relative;
+		    left: -20px;
+		    border-right: 20px solid transparent;
+		    -webkit-filter: drop-shadow(20px 0);
+		    filter: drop-shadow(20px 0);    
+		}
+	</style>
+
+</head>
+<body>
+	<p><strong>原始图标</strong></p>
+	<i class="icon icon-del"></i>
+	<p><strong>可以变色的图标</strong></p>
+	<i class="icon"><i class="icon icon-del" style="filter: drop-shadow(rgb(51, 153, 0) 20px 0px);"></i></i>
+</body>
+</html>
