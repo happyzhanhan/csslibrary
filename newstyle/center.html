@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>居中显示</title>
+  <style>
+    /*1. 定位法：position:absolute*/
+    .parentone{
+      position:relative;
+    }
+    .childone{
+      position:absolute;
+      top:50%;
+      left:50%;
+      margin-top:-100px;
+      margin-left:-200px;
+      background:#333;
+      width:200px;
+      height:400px;
+    }
+    
+    /*2. margin:auto法*/
+     .parenttwo{
+      position:relative;
+    }
+    .childtwo{
+      position:absolute;
+      top:0;
+      left:0;
+      margin-top:0;
+      margin-left:0;
+      background:#333;
+      width:200px;
+      height:400px;
+      margin: auto;
+    }
+    
+     /*3. display:table-cell法*/
+    .parentthree{
+      display:table-cell;
+      vertical-align: middle;
+      text-align: center;
+      width: 100px;
+      height: 120px;
+      background: #333;
+    }
+    .childthree{
+      display:inline-block;
+      vertical-align: middle;
+      color:#fff;
+    }
+    
+    /*4. transform:translate(x,y)法*/
+    .parentfour{
+      position: /*margin:auto法*/;
+    }
+    .childfour{
+      position:absolute;
+      top:50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+      -webkit-transform: translate(-50%,-50%);
+      -moz-transform: translate(-50%,-50%);
+      -ms-transform:translate(-50%,-50%);
+    }
+    
+    /*5. before，after伪元素法*/
+    .parentfive{
+      position:fixed;
+      background:#333;
+    }
+    .parentfive::before{
+      content:"";
+      display:inline-block;
+      vertical-align: middle;
+      height:100%;
+    }
+    .parentfive::after{
+      content:"";
+      display:inline-block;
+      vertical-align: middle;
+      height:100%;
+    }
+    .childfive{
+      width:60px;
+      height:60px;
+      background:#fff;
+    }
+    
+    /*6. Flex布局法*/
+    .childsix{
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex;
+      /*水平居中*/
+      -webkit-box-align: center;
+      -moz-box-align:center;
+      -ms-flex-pack:center;
+      -webkit-justify-content:center;
+      -moz-justify-content:center;
+      justify-content: center;
+
+      /*垂直居中*/
+      -webkit-box-pack:center;
+      -moz-box-pack:center;
+      -ms-flex-align:center;
+      -webkit-align-items: center;
+      -moz-align-items:center;
+      align-items:center;
+    }
+  </style>
+</head>
+<body>
+	<!--方法一-->
+  <div class="parentone">
+      <div class="childone"></div>
+  </div>
+  <!--方法二-->
+  <div class="parenttwo">
+      <div class="childtwo"></div>
+  </div>
+  <!--方法三-->
+  <div class="parentthree">
+      <div class="childthree">
+        33333333333
+      </div>
+  </div>
+  <!--方法四-->
+  <div class="parentfour">
+      <div class="childfour">
+        44444444444
+      </div>
+  </div>
+  <!--方法五-->
+  <div class="parentfive">
+      <div class="childfive"></div>
+  </div>
+  <!--方法六-->
+  <div class="parentsix">
+      <div class="childsix">
+          6666666666
+      </div>
+  </div>
+  
+</body>
+</html>
