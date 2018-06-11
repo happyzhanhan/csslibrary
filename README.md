@@ -2,6 +2,31 @@
 css I want collate data about css.
 Today let me start it.
 ### Compatible with IE6 (对IE6等比版本兼容的css样式)
+[csshack.css](https://github.com/happyzhanhan/csslibrary/blob/master/Compatible/csshack.css)(css hack)
+当你需要兼容IE6.7.8等低配的时候可以愉快的使用这个小技巧
+
+#### 仅IE6识别 _
+```
+_background-color:#1e0bd1;
+```
+#### 仅IE7识别 * +
+```
+* +html .bb{background-color:#a200ff;}
+```
+#### 仅火狐识别 @-moz-document url-prefix(){}
+```
+@-moz-document url-prefix(){.bb{background-color:#00ff00;}}
+```
+#### IE6,7识别 +
+```
++background-color:#a200ff;
+```
+#### IE6,7,8识别 \9
+```
+.background-color:#00deff\9;
+```
+
+
 
 ### Css reset （css样式重置）
 
@@ -36,6 +61,8 @@ Today let me start it.
 |slideInDown|	slideInLeft	|slideInRight	|slideInUp|
 |slideOutDown	|slideOutLeft|	slideOutRight|	slideOutUp|
 
+
+
 使用方法：
 #### 1.下载引入样式表：
 ```
@@ -47,6 +74,10 @@ Today let me start it.
 <h1 class="animated infinite bounce">Example</h1>
 ```
 
+
+
 ### The processor of css  （css的处理器）
+
+
 
 ### New style I know once I see （新的css好用的样式每次见到记录学习）
