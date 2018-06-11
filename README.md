@@ -1,7 +1,7 @@
 # css library
 css I want collate data about css.
 Today let me start it.
-### Compatible with IE6 (对IE6等比版本兼容的css样式)
+### 一、Compatible with IE6 (对IE6等比版本兼容的css样式)
 [csshack.css](https://github.com/happyzhanhan/csslibrary/blob/master/Compatible/csshack.css)(css hack)
 当你需要兼容IE6.7.8等低配的时候可以愉快的使用这个小技巧
 
@@ -28,12 +28,12 @@ _background-color:#1e0bd1;
 
 
 
-### Css reset （css样式重置）
+### 二、Css reset （css样式重置）
 
 [reset.css](https://github.com/happyzhanhan/csslibrary/tree/master/resetcss)(重置样式表)
 这个几乎是开始新项目必备哦
 
-### Css animate （css动态样式库）
+### 三、Css animate （css动态样式库）
 [animate.css](https://github.com/happyzhanhan/csslibrary/tree/master/animatecss)(动态样式表)
 这个是为了让页面更好的使用动画效果，而且很多js合作使用
 
@@ -76,8 +76,8 @@ _background-color:#1e0bd1;
 
 
 
-### The processor of css  （css的处理器）
+### 四、The processor of css  （css的处理器）
 
 
 
-### New style I know once I see （新的css好用的样式每次见到记录学习）
+### 五、New style I know once I see （新的css好用的样式每次见到记录学习）
