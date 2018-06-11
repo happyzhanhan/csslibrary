@@ -104,7 +104,8 @@ _background-color:#1e0bd1;
 [responsive.css](https://github.com/happyzhanhan/csslibrary/blob/master/newstyle/responsive.css)
 
 
-## ……（不断更新中……详见Wiki）
+## ……
+#####（不断更新中……详见Wiki）
 
 ```
 conpyright by 前端小牛 周振晗编纂 转载请联系1659725767@qq.com
