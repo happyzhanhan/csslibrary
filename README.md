@@ -37,8 +37,15 @@ Today let me start it.
 |slideOutDown	|slideOutLeft|	slideOutRight|	slideOutUp|
 
 使用方法：
-#### 1.下载引入样式表：<link rel="stylesheet" href="animate.css">
-#### 2.行间使用样式：<h1 class="animated infinite bounce">Example</h1>
+#### 1.下载引入样式表：
+```
+<link rel="stylesheet" href="animate.css">
+```
+
+#### 2.行间使用样式：
+```
+<h1 class="animated infinite bounce">Example</h1>
+```
 
 ### The processor of css  （css的处理器）
 
