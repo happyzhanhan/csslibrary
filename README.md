@@ -1,5 +1,5 @@
 # css library
-## 前端小牛 周振晗编纂 转载请联系1659725767@qq.com
+前端小牛 周振晗编纂 转载请联系1659725767@qq.com
 
 CSS(Cascading Style Sheet)被译为级联样式表
 css I want collate data about css.
@@ -94,4 +94,4 @@ _background-color:#1e0bd1;
 
 
 
-## conpyright by 前端小牛 周振晗编纂 转载请联系1659725767@qq.com
+conpyright by 前端小牛 周振晗编纂 转载请联系1659725767@qq.com
